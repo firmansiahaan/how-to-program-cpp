@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_28.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|solutionrelative:fig06_28.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_26.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|solutionrelative:fig06_26.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_25.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|solutionrelative:fig06_25.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44C420C5-E52E-4AAD-BFE3-C340562DCD4A}|chapter06-functions.vcxproj|solutionrelative:fig06_23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fig06_28.cpp",
+              "DocumentMoniker": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_28.cpp",
+              "RelativeDocumentMoniker": "fig06_28.cpp",
+              "ToolTip": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_28.cpp",
+              "RelativeToolTip": "fig06_28.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-14T22:08:29.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fig06_26.cpp",
+              "DocumentMoniker": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_26.cpp",
+              "RelativeDocumentMoniker": "fig06_26.cpp",
+              "ToolTip": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_26.cpp",
+              "RelativeToolTip": "fig06_26.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-14T22:01:25.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fig06_25.cpp",
+              "DocumentMoniker": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_25.cpp",
+              "RelativeDocumentMoniker": "fig06_25.cpp",
+              "ToolTip": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_25.cpp",
+              "RelativeToolTip": "fig06_25.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-14T21:57:18.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fig06_23.cpp",
+              "DocumentMoniker": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_23.cpp",
+              "RelativeDocumentMoniker": "fig06_23.cpp",
+              "ToolTip": "D:\\Firman\\Programming\\cpp\\how-to-program\\how-to-program-cpp\\chapter06-functions\\fig06_23.cpp",
+              "RelativeToolTip": "fig06_23.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-14T21:42:02.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
