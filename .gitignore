@@ -43,3 +43,6 @@
 /chapter08-pointers/.vs/chapter08-pointers/v17/Browse.VC.db-wal
 /chapter08-pointers/.vs/chapter08-pointers/v17/Browse.VC.opendb
 /chapter07-array-and-vector/.vs/chapter07-array-and-vector/v17/Browse.VC.db
+/chapter08-pointers/.vs/chapter08-pointers/v17/DocumentLayout.json
+*.db
+/chapter07-array-and-vector/.vs/chapter07-array-and-vector/v17/Browse.VC.db
