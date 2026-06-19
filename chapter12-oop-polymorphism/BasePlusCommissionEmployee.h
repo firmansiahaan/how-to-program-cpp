@@ -1,6 +1,5 @@
-// Fig. 11.7: BasePlusCommissionEmployee.h
-// BasePlusCommissionEmployee class definition represents an employee
-// that receives a base salary in addition to commission.
+// Fig. 12.15: BasePlusCommissionEmployee.h
+// BasePlusCommissionEmployee class derived from CommissionEmployee.
 #ifndef BASEPLUS_H
 #define BASEPLUS_H
 
@@ -11,12 +10,14 @@ class BasePlusCommissionEmployee : public CommissionEmployee {
 public:
 	BasePlusCommissionEmployee(const std::string&, const std::string&,
 		const std::string&, double = 0.0, double = 0.0, double = 0.0);
+	virtual ~BasePlusCommissionEmployee() = default;
 
 	void setBaseSalary(double);
 	double getBaseSalary() const;
 
-	double earnings() const;
-	std::string toString() const;
+	// keyword virtual signals intent to override
+	virtual double earnings() const override;
+	virtual std::string toString() const override;
 private:
 	double baseSalary;
 };

@@ -1,5 +1,5 @@
-// Fig. 11.5: CommissionEmployee.cpp
-// Class CommissionEmployee member-function definitions.
+// Fig. 12.14: CommissionEmployee.cpp
+// CommissionEmployee class member-function definitions.
 #include <iomanip>
 #include <stdexcept>
 #include <sstream>
@@ -9,35 +9,9 @@ using namespace std;
 // constructor
 CommissionEmployee::CommissionEmployee(const string& first,
 	const string& last, const string& ssn, double sales, double rate)
-	: firstName(first), lastName(last), socialSecurityNumber(ssn) {
-	setGrossSales(sales); // validate and store gross sales
-	setCommissionRate(rate); // validate and store commission rate
-}
-
-// set first name
-void CommissionEmployee::setFirstName(const string& first) {
-	firstName = first;
-}
-
-// return first name
-string CommissionEmployee::getFirstName() const { return firstName; }
-
-// set last name
-void CommissionEmployee::setLastName(const string& last) {
-	lastName = last;
-}
-
-// return last name
-string CommissionEmployee::getLastName() const { return lastName; }
-
-// set social security number
-void CommissionEmployee::setSocialSecurityNumber(const string& ssn) {
-	socialSecurityNumber = ssn;
-}
-
-// return social security number
-string CommissionEmployee::getSocialSecurityNumber() const {
-	return socialSecurityNumber;
+	: Employee(first, last, ssn) {
+	setGrossSales(sales);
+	setCommissionRate(rate);
 }
 
 // set gross sales amount
@@ -54,7 +28,7 @@ double CommissionEmployee::getGrossSales() const { return grossSales; }
 
 // set commission rate
 void CommissionEmployee::setCommissionRate(double rate) {
-	if (rate <= 0.0 || rate >= 1.0) {
+	if (rate <= 0.0 || rate > 1.0) {
 		throw invalid_argument("Commission rate must be > 0.0 and < 1.0");
 	}
 
@@ -66,19 +40,17 @@ double CommissionEmployee::getCommissionRate() const {
 	return commissionRate;
 }
 
-// calculate earnings
+// calculate earnings; override pure virtual function earnings in Employee
 double CommissionEmployee::earnings() const {
-	return commissionRate * grossSales;
+	return getCommissionRate() * getGrossSales();
 }
 
-// return string representation of CommissionEmployee object
+// return a string representation of CommissionEmployee's information
 string CommissionEmployee::toString() const {
 	ostringstream output;
-	output << fixed << setprecision(2); // two digits of precision
-	output << "commission employee: "
-		<< getFirstName() << ' ' << getLastName()
-		<< "\nsocial security number: " << getSocialSecurityNumber()
+	output << fixed << setprecision(2);
+	output << "commission employee: " << Employee::toString()
 		<< "\ngross sales: " << getGrossSales()
-		<< "\ncommission rate: " << getCommissionRate();
+		<< "; commission rate: " << getCommissionRate();
 	return output.str();
 }

@@ -1,36 +1,27 @@
-// Fig. 11.4: CommissionEmployee.h
-// CommissionEmployee class definition represents a commission employee.
+// Fig. 12.13: CommissionEmployee.h
+// CommissionEmployee class derived from Employee.
 #ifndef COMMISSION_H
 #define COMMISSION_H
 
-#include <string> // C++ standard string class
+#include <string> 
+#include "Employee.h"
 
-class CommissionEmployee {
+class CommissionEmployee : public Employee {
 public:
 	CommissionEmployee(const std::string&, const std::string&,
 		const std::string&, double = 0.0, double = 0.0);
-
-	void setFirstName(const std::string&);
-	std::string getFirstName() const;
-
-	void setLastName(const std::string&);
-	std::string getLastName() const;
-
-	void setSocialSecurityNumber(const std::string&);
-	std::string getSocialSecurityNumber() const;
-
-	void setGrossSales(double);
-	double getGrossSales() const;
+	virtual ~CommissionEmployee() = default;
 
 	void setCommissionRate(double);
 	double getCommissionRate() const;
 
-	double earnings() const;
-	std::string toString() const;
+	void setGrossSales(double);
+	double getGrossSales() const;
+
+	// keyword virtual signals intent to override
+	virtual double earnings() const override;
+	virtual std::string toString() const override;
 private:
-	std::string firstName;
-	std::string lastName;
-	std::string socialSecurityNumber;
 	double grossSales; // gross weekly sales
 	double commissionRate; // commission percentage
 };

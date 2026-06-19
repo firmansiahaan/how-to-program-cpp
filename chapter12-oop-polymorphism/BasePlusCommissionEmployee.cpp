@@ -1,5 +1,6 @@
 // Fig. 11.8: BasePlusCommissionEmployee.cpp
 // Class BasePlusCommissionEmployee member-function definitions.
+#include <iomanip>
 #include <stdexcept>
 #include <sstream>
 #include "BasePlusCommissionEmployee.h"
@@ -9,7 +10,6 @@ using namespace std;
 BasePlusCommissionEmployee::BasePlusCommissionEmployee(
 	const string& first, const string& last, const string& ssn,
 	double sales, double rate, double salary)
-	// explicitly call base-class constructor
 	: CommissionEmployee(first, last, ssn, sales, rate) {
 	setBaseSalary(salary);
 }
@@ -29,6 +29,7 @@ double BasePlusCommissionEmployee::getBaseSalary() const {
 }
 
 // calculate earnings
+// override virtual function earnings in CommissionEmployee
 double BasePlusCommissionEmployee::earnings() const {
 	return getBaseSalary() + CommissionEmployee::earnings();
 }
@@ -36,7 +37,8 @@ double BasePlusCommissionEmployee::earnings() const {
 // return string representation of BasePlusCommissionEmployee object
 string BasePlusCommissionEmployee::toString() const {
 	ostringstream output;
-	output << "base - salaried  " << CommissionEmployee::toString()\
-		<< "\nbase salary: " << getBaseSalary();
+	output << fixed << setprecision(2);
+	output << "base-salaried " << CommissionEmployee::toString()
+		<< "; base salary: " << getBaseSalary();
 	return output.str();
 }
