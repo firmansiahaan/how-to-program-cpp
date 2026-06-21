@@ -49,6 +49,4 @@ int main() {
 	}
 
 	cout << "\nStack is empty, cannot pop." << endl;
-
-	Stack<int> intStack;	
 }
