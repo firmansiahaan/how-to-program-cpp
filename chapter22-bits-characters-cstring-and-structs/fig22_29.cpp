@@ -1,0 +1,12 @@
+// Fig. 22.29: fig22_29.cpp
+// Using atoi.
+#include <iostream>
+#include <cstdlib> // atoi prototype
+using namespace std;
+
+int main() {
+	int i{ atoi("2593") }; // convert string to int
+
+	cout << "The string \"2593\" converted to int is " << i
+		<< "\nThe converted value minus 593 is " << i - 593 << endl;
+}
